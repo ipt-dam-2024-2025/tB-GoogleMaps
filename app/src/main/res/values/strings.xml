@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Google Maps</string>
+    <string name="marker_value">Marker at IPT (i154)</string>
 </resources>

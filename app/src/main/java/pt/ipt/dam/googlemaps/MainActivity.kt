@@ -46,7 +46,7 @@ import pt.ipt.dam.googlemaps.databinding.ActivityMainBinding
 
         // Add a marker in Tomar and move the camera to it
         val tomar = LatLng(39.599585, -8.389542)
-        mMap.addMarker(MarkerOptions().position(tomar).title("Marker in IPT (i154)"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(tomar))
+        mMap.addMarker(MarkerOptions().position(tomar).title(getString(R.string.marker_value)))
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(tomar,15f))
     }
 }
