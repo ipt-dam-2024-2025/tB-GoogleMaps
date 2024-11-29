@@ -1,6 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.androidSecretsGradlePlugin)
+    // id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin") version "2.0.1"
+    // https://developers.google.com/maps/documentation/android-sdk/secrets-gradle-plugin
 }
 
 android {
